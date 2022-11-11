@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Sign Up.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <!-- 회원가입 main청 만들기 -->
+    <main>
+      <!-- 회원가입 인사말작성 -->
+      <section class="welcome">
+        <h1>Join with Green Guard</h1>
+        <h4>Let's save our earth</h4>
+      </section>
+      <!-- 회원가입form -->
+      <form action="">
+        <label for="email"></label>
+        <input
+          id="email"
+          required
+          placeholder="Email as yours ID"
+          type="email"
+        />
+        <label for="password"></label>
+        <input id="password" required placeholder="Password" type="password" />
+        <label for="username"></label>
+        <input id="username" required placeholder="Username" type="text" />
+        <input type="submit" value="Sign up" />
+      </form>
+
+      <!-- 다른이메일계정 -->
+      <section>
+        <ul class="otheremail">
+          <li class="email-items">
+            <a href="#">
+              <img src="img/Google__G__Logo.svg.png" alt="" />
+            </a>
+          </li>
+          <li class="email-items">
+            <a href="#">
+              <img src="img/다운로드.png" alt="" />
+            </a>
+          </li>
+          <li class="email-items">
+            <a href="#">
+              <img src="img/25231.png" alt="" />
+            </a>
+          </li>
+          <li class="email-items">
+            <a href="#">
+              <img src="img/image.png" alt="" />
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- 이미계정존재 -->
+      <div class="gotologin-form">
+        <a class="gotologin" href="login.html"
+          >이미 가입된 계정이 있어요(로그인)</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
